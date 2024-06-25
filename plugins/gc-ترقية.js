@@ -4,7 +4,7 @@
 const handler = async (m, {conn, usedPrefix, text}) => {
   const datas = global
   const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const _translate = JSON.parse(fs.readFileSync(`./language/ar.json`))
   const tradutor = _translate.plugins.gc_promote
 
   if (isNaN(text) && !text.match(/@/g)) {
@@ -34,7 +34,7 @@ const handler = async (m, {conn, usedPrefix, text}) => {
 };
 handler.help = ['*593xxx*', '*@usuario*', '*responder chat*'].map((v) => 'promote ' + v);
 handler.tags = ['group'];
-handler.command = /^(promote|daradmin|darpoder)$/i;
+handler.command = /^(ترقية|daradmin|darpoder)$/i;
 handler.group = true;
 handler.admin = true;
 handler.botAdmin = true;
