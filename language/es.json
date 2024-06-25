@@ -3832,31 +3832,31 @@
             ]
         },
         "dfail": {
-            "texto1": "*[ ℹ️ ] Este comando solo puede ser utilizado por el propietario del bot.*",
-            "texto2": "*[ ℹ️ ] Este comando solo puede ser utilizado por el propietario del bot.*",
-            "texto3": "*[ ℹ️ ] Este comando solo puede ser utilizado por moderadores y el propietario del bot.*",
-            "texto4": "*[ ℹ️ ] Este comando solo puede ser utilizado por usurios premium y el propietario del bot.*",
-            "texto5": "*[ ℹ️ ] Este comando solo puede ser utilizado en grupos.*",
-            "texto6": "*[ ℹ️ ] Este comando solo puede ser utilizado en el chat privado del bot.*",
-            "texto7": "*[ ℹ️ ] Este comando solo puede ser usado por administradores del grupo.*",
-            "texto8": "*[ ℹ️ ] Para utilizar este comando es necesario que el bot sea administrador del grupo.*",
-            "texto9": "*[ ℹ️ ] Para utilizar este comando debes estar registrado.*\n\n*[ 💡 ] Utiliza el comando:* _/verificar nombre.edad_ *para registrarte.*",
-            "texto10": "*[ ℹ️ ] Este comando fue desactivado por el propietario del bot.*",
+            "texto1": "*❐┃هاذا الامر خاص لبوبو وبس┃😏❯*",
+            "texto2": "*❐┃هاذا الامر خاص لبوبو وبس┃😏❯*",
+            "texto3": "*❐┃لا يمكن استخدام هذا الأمر إلا من قبل المشرفين ومالك البوت┃❗❯*",
+            "texto4": "*❐┃هذه الميزة خاصة لاصحاب البريميوم ومالك البوت فقط┃❗❯*",
+            "texto5": "*❐┃الامر خاص بالمجموعة┃❗❯*",
+            "texto6": "*❐┃تعال عندي في الخاص وارسل امرك┃😉❯*",
+            "texto7": "*❐┃هاذا الامر خاص بالمشرفين┃❗❯*",
+            "texto8": "*❐┃رقيني بالاول عشان تستخدم الامر┃❗❯*",
+            "texto9": "*❐┃يـجـب الـتـسـجـيـل اولاً┃❗❯*\n\n ⟐ استخدم الامر : *.تسجيل*",
+            "texto10": "*❐┃تم تعطيل هذا الأمر من قبل مالك الروبوت┃❗❯*",
             "texto11": [
-                "*[ ⚠ ] Advertencia*",
-                "*[ ⚠ ] Advertencia*",
-                "https://github.com/BrunoSobrino/TheMystic-Bot-MD"
+                "*[ ⚠ ] مشكلة*",
+                "*[ ⚠ ] مشكلة*",
+                "https://github.com/Brook-88/Vivi-bot.git"
             ]
         },
         "participantsUpdate": {
-            "texto1": "👋 ¡Bienvenido/a!\n@user",
-            "texto2": "👋 ¡Hasta luego!\n@user",
-            "texto3": "*[ ℹ️ ] @user Fue promovido a administrador.*",
-            "texto4": "*[ ℹ️ ] @user Fue degradado de administrador.*",
-            "texto5": "*[ ℹ️ ] La descripción del grupo ha sido modificada.*",
-            "texto6": "*[ ℹ️ ] El nombre del grupo ha sido modificado.*",
-            "texto7": "*[ ℹ️ ] Se ha cambiado la foto de perfil del grupo.*",
-            "texto8": "*[ ℹ️ ] El enlace de invitación al grupo ha sido restablecido.*"
+            "texto1": "*╮─━━──═❆ ❮✦❯ ❆═──━━─╭*\n*▢ انورت واشرقت بوجودك معنا ✨*\n*▢ انضم إلينا :* ⁩@user 🫣\n*▢* لا تنسى تشوف وصف القروب🏷️\n*▢* استخدم الامر:`.اوامر` لرؤية القوائم\n*╯─━━──═❆ ❮✦❯ ❆═──━━─╰*",
+            "texto2": "*╮─━━──═❆ ❮✦❯ ❆═──━━─╭*\n  *▢ اتمنى لك التوفيق :*  @user\n  *▢ غــادر الــمــجــمــوعــة🥀⛔*\n*╯─━━──═❆ ❮✦❯ ❆═──━━─╰*",
+            "texto3": "*❐┃@user , مبروك تمت ترقيتك الى مشرف، نتمنى منك تقديم الأفضل┃🎉❯*",
+            "texto4": "*❐┃@user , تمت إزالة الاشراف منك ، نشكرك على ما فعلته من تحسين للمجموعة┃🌺❯*",
+            "texto5": "*❐┃ تم تعديل وصف المجموعة يمكنك الان قراءته ورؤية ما الجديد┃🧾❯*",
+            "texto6": "*❐┃ تم تغيير اسم المجموعة┃✍️❯*",
+            "texto7": "*❐┃ تم تغيير صورة الملف الشخصي للمجموعة┃🖼️❯*",
+            "texto8": "*❐┃ تمت إعادة تعيين رابط دعوة المجموعة┃🔗❯*",
         },
         "deleteUpdate": {
             "texto1": [
