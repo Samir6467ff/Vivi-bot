@@ -2,7 +2,7 @@
 const handler = async (m, {conn, text, isROwner, isOwner}) => {
   const datas = global
   const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const _translate = JSON.parse(fs.readFileSync(`./language/ar.json`))
   const tradutor = _translate.plugins.gc_setbye
 
   if (text) {
@@ -12,6 +12,6 @@ const handler = async (m, {conn, text, isROwner, isOwner}) => {
 };
 handler.help = ['setbye <text>'];
 handler.tags = ['group'];
-handler.command = ['setbye'];
+handler.command = ['تعديل-مغادرة'];
 handler.admin = true;
 export default handler;
