@@ -4,7 +4,7 @@
 const handler = async (m, {conn, usedPrefix, command}) => {
   const datas = global
   const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const _translate = JSON.parse(fs.readFileSync(`./language/ar.json`))
   const tradutor = _translate.plugins.gc_delete
 
   if (!m.quoted) throw tradutor.texto1;
@@ -18,7 +18,7 @@ const handler = async (m, {conn, usedPrefix, command}) => {
 };
 handler.help = ['del', 'delete'];
 handler.tags = ['group'];
-handler.command = /^del(ete)?$/i;
+handler.command = /^جروب(حذف)?$/i;
 handler.group = true;
 handler.admin = true;
 handler.botAdmin = true;
