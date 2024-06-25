@@ -13,7 +13,7 @@ const handler = async (m, {conn, args}) => {
     };
 handler.help = ['linkgroup'];
 handler.tags = ['group'];
-handler.command = /^رابط(الجروب)?$/i;
+handler.command = /^لينك(الجروب)?$/i;
 handler.group = true;
 handler.botAdmin = true;
 export default handler;
