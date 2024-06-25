@@ -9,8 +9,8 @@ const handler = async (m, {conn, args}) => {
   const group = m.chat;
   conn.reply(m.chat, 'https://chat.whatsapp.com/' + await conn.groupInviteCode(group), m, {
     contextInfo: {externalAdReply: {mediaUrl: null, mediaType: 1, description: null,
-      title: tradutor.texto1[0],
-      };
+      title: tradutor.texto1[0]
+    };
 handler.help = ['linkgroup'];
 handler.tags = ['group'];
 handler.command = /^رابط(الجروب)?$/i;
