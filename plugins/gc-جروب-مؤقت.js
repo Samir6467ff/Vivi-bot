@@ -4,7 +4,7 @@
 const handler = async (m, {conn, isAdmin, isOwner, args, usedPrefix, command}) => {
   const datas = global
   const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const _translate = JSON.parse(fs.readFileSync(`./language/ar.json`))
   const tradutor = _translate.plugins.gc_config_time
 
   if (!(isAdmin || isOwner)) {
@@ -12,11 +12,11 @@ const handler = async (m, {conn, isAdmin, isOwner, args, usedPrefix, command}) =
     throw false;
   }
   const isClose = {
-	  'open': 'not_announcement',
+	  'فتح': 'not_announcement',
 	  'buka': 'not_announcement',
     'on': 'not_announcement',
 	  '1': 'not_announcement',
-	  'close': 'announcement',
+	  'قفل': 'announcement',
 	  'tutup': 'announcement',
     'off': 'announcement',
     '0': 'announcement',
@@ -24,8 +24,8 @@ const handler = async (m, {conn, isAdmin, isOwner, args, usedPrefix, command}) =
   if (isClose === undefined) {
 	  const caption = `
 ${tradutor.texto1[0]}
-*${usedPrefix + command} open 1*
-*${usedPrefix + command} close 1*
+*${usedPrefix + command} فتح 1*
+*${usedPrefix + command} قفل 1*
 ${tradutor.texto1[1]} *${usedPrefix + command} close 1* 
 ${tradutor.texto1[2]}
 `;
@@ -46,7 +46,7 @@ ${tradutor.texto1[2]}
 };
 handler.help = ['grouptime *<open/close>* *<número>*'];
 handler.tags = ['group'];
-handler.command = /^(grouptime|gctime)$/i;
+handler.command = /^(جروب)$/i;
 
 handler.botAdmin = true;
 handler.group = true;
