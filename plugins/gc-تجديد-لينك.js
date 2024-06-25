@@ -4,13 +4,13 @@
 const handler = async (m, {conn}) => {
   const datas = global
   const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const _translate = JSON.parse(fs.readFileSync(`./language/ar.json`))
   const tradutor = _translate.plugins.gc_revoke
 
   const revoke = await conn.groupRevokeInvite(m.chat);
   await conn.reply(m.chat, `${tradutor.texto1} ${'https://chat.whatsapp.com/' + revoke}`, m);
 };
-handler.command = ['resetlink', 'revoke'];
+handler.command = ['تجديد-لينك', 'revoke'];
 handler.botAdmin = true;
 handler.admin = true;
 handler.group = true;
